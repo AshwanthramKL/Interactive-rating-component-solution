@@ -9,41 +9,60 @@
   <title>Frontend Mentor | Interactive rating component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" type="stylesheet" href="./style.css">
 </head>
 <body>
 
   <!-- Rating state start -->
+  
+  <div class="container">
+    <div class="card rating-state">
+      <div class="star">
+        <img src="./images/icon-star.svg" alt="phone image">
+      </div>
+      
+      <h2>How did we do?</h2>
+      <div class="para">
+        Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
+      </div>
 
-  How did we do?
+      <div class="rating-buttons">
+        <div class="1 rating-button">1</div>
+        <div class="2 rating-button">2</div>
+        <div class="3 rating-button">3</div>
+        <div class="4 rating-button">4</div>
+        <div class="5 rating-button">5</div>
+      </div>
 
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
+      <button class="submit" type="submit">SUBMIT</button>
+    </div>
+  </div>
 
-  1 2 3 4 5
 
-  Submit
 
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
-
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
+  <div class="container">
+    <div class="card thank-you-state">
+      <img src="./images/illustration-thank-you.svg" alt="phone image">
+      <div class="display-selection">
+        You selected <span class="rating">X</span> out of 5
+      </div>
+      <h2>Thank you!</h2>
+      <div class="para">
+        We appreciate you taking the time to give a rating. If you ever need more support, 
+        don't hesitate to get in touch!
+      </div>
+    </div>
+  </div>
 
   <!-- Thank you state end -->
 
-  
+<!--   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 </html>
