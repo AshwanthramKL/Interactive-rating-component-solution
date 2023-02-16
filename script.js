@@ -1,4 +1,4 @@
-let rating;
+let rating = null;
 let rating_button;
 
 var rating_1 = document.querySelector('.one');
@@ -101,9 +101,20 @@ var thank_you_card = document.querySelector('.thank-you-state');
 var show_rating = document.querySelector('.show-rating');
 
 function submitted(e){
-    rating_card.style.display = 'none';
-    show_rating.textContent = rating;
-    thank_you_card.style.display = 'block';
+    if(rating == null)
+    {
+        var error_space = document.querySelector('.error')
+        error_space.innerHTML = '*Please Select a rating first';
+        err
+    }
+    
+    else{
+        rating_card.style.display = 'none';
+        show_rating.textContent = rating;
+        thank_you_card.style.display = 'block';
+    }
+        
+    
 }
 
 // Add Responsiveness to the website
