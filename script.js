@@ -98,8 +98,10 @@ var rating_card = document.querySelector('.rating-state');
 
 var thank_you_card = document.querySelector('.thank-you-state');
 
-
+var show_rating = document.querySelector('.show-rating');
+console.log(show_rating);
 function submitted(e){
     rating_card.style.display = 'none';
+    show_rating.textContent = rating;
     thank_you_card.style.display = 'block';
 }
