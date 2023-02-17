@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/AshwanthramKL/Interactive-rating-component-solution)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Live Site URL: [Live site URL](https://ashwanthramkl.github.io/Interactive-rating-component-solution/)
 
 ## My process
 
