@@ -110,7 +110,7 @@ h2{
     cursor: pointer;
     /* Work on animation and smooth transition */
     animation-name: rating-hover;
-    animation-duration: 100ms;
+    animation-duration: 500ms;
 
 }
 
@@ -118,7 +118,7 @@ h2{
     background-color: hsl(0, 0%, 100%);
     color:hsl(25, 97%, 53%);
     cursor: pointer;
-    animation: ease-in-out 100ms;
+    animation: submit-hover 500ms;
 }
 
 .error{
@@ -154,12 +154,25 @@ h2{
     text-align: center;
 }
 
-@keyframes rating-exit {
-    0% {background-color: hsl(25, 97%, 53%);}
-    50% {background-color:  hsl(217, 12%, 63%);}
-    100% {background-color:  hsl(216, 12%, 54%);}
+@keyframes rating-hover {
+    100% {background-color: hsl(25, 97%, 53%);}
+    0% {background-color:  hsl(217, 12%, 63%);}
+    /* 100% {background-color:  hsl(216, 12%, 54%);} */
 }
 
+@keyframes submit-hover {
+    0% {background-color: hsl(25, 97%, 53%);}
+    100% {background-color:  hsl(0, 0%, 100%);}
+    /* 100% {background-color:  hsl(216, 12%, 54%);} */
+}
+
+
+@keyframes rating-exit {
+    0% {background-color: hsl(25, 97%, 53%);}
+    50% {background-color: hsl(0, 0%, 100%);}
+    100% {background-color:  hsl(217, 12%, 63%);}
+    /* 100% {background-color:  hsl(216, 12%, 54%);} */
+}
 /* Adding responsiveness */
 
 img {

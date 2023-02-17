@@ -119,10 +119,9 @@ function submitted(e){
 
 // Add Responsiveness to the website
 
-rating_4.addEventListener('mouseout', (e)=>{
-    console.log(1234);
-    e.target.style.animationName = 'rating-exit';
-    rating_4.style.animationTimingFunction = 'ease-out';
-})
-
-rating_4
+// rating_4.addEventListener('mouseout', (e)=>{
+//     console.log(1234);
+//     e.target.style.animationName = 'rating-exit';
+//     rating_4.style.animationTimingFunction = 'ease-out';
+//     rating_4.style.animationDuration = '400ms'
+// })
